@@ -1,8 +1,18 @@
- var map = new ol.Map({
+function mapa ()
+{
+
+var vector = new ol.layer.Vector({
+       source: new ol.source.Vector({
+         url: 'https://openlayers.org/en/v4.6.5/examples/data/kml/2012-02-10.kml',
+         format: new ol.format.KML()
+       })
+     });
+
+var map = new ol.Map({
         layers: [
           new ol.layer.Tile({
             source: new ol.source.OSM()
-          })
+          }, vector)
         ],
         target: 'mapa',
         controls: ol.control.defaults({
@@ -15,3 +25,4 @@
           zoom: 3
         })
       });
+}
