@@ -15,7 +15,7 @@ else {
         ]
         
         map = new mapboxgl.Map({
-          container: 'mapa', // container id
+          container: 'map', // container id
           style: 'mapbox://styles/mapbox/streets-v10', // stylesheet location
           center: center_point, // starting position [lng, lat]
           maxBounds: bounds,
