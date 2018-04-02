@@ -11,4 +11,5 @@ var map = new ol.Map({
      center: [-4.553746, 37.035500], 
      zoom: 8
    }) 
+   map.addControl(new ol.control.ZoomSlider()); 
 });
