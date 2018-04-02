@@ -6,7 +6,7 @@
 
       var vector = new ol.layer.Vector({
         source: new ol.source.Vector({
-          url: 'https://openlayers.org/en/v4.6.5/examples/data/kml/2012-02-10.kml',
+          url: 'file:///C:/Users/Usuario/Documents/GitHub/webGeostock.github.io/kml/ciza.kml',
           format: new ol.format.KML()
         })
       });
@@ -15,7 +15,7 @@
         layers: [raster, vector],
         target: document.getElementById('mapa'),
         view: new ol.View({
-          center: [876970.8463461736, 5859807.853963373],
+          center: [-492326.599008, 4399345.864186],
           projection: projection,
           zoom: 10
         })
