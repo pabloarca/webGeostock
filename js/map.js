@@ -4,7 +4,7 @@ if (!mapboxgl.supported()) {
   alert('Your browser does not support Mapbox GL. This app supports Safari 9 and above, Microsoft Edge 13 and above, along with the latest version of Chrome and Firefox');
 }
 else {
-  mapboxgl.accessToken = 'pk.eyJ1IjoicGVpeCIsImEiOiJjaWx3YnpyMGMwMGEwdm1tNWJ1YXd5YXl6In0.0FwWZ0igmG3sCeC48IESQQ';
+  mapboxgl.accessToken = 'pk.eyJ1IjoicGVwaXRvLWdyaWxsbyIsImEiOiJjajhhdjFjN3MwZ2Y2MnFwaWlkNmtoY2Y0In0.HJNKwaFRS8_ikTesrLtVsg';
   var filterGroup = document.getElementById('filter-group');
   const center_point = [-4.421482086181641, 36.72120508210904],
         bounds = [
