@@ -9,7 +9,7 @@ var opmap = new ol.Map({
         layers: [
           new ol.layer.Tile({
             source: new ol.source.OSM()
-          }, vector)
+          })
         ],
         target: 'mapa',
         controls: ol.control.defaults({
