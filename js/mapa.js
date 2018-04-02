@@ -4,7 +4,7 @@
             source: new ol.source.OSM()
           })
         ],
-        target: 'map',
+        target: 'mapa',
         controls: ol.control.defaults({
           attributionOptions: {
             collapsible: false
