@@ -8,7 +8,7 @@ var map = new ol.Map({
    ], 
    target: 'mapa', 
    view: new ol.View({ 
-     center: [-4.553746, 37.035500], 
+     center: [37.035500, -4.553746], 
      zoom: 8
    }) 
    map.addControl(new ol.control.ZoomSlider()); 
