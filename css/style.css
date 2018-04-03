@@ -82,6 +82,25 @@ a:hover, a:focus, a:active {
   text-decoration: none;
 }
 
+.ol.control.Zoom {
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  color:red;
+}
+
+.ol.control.Zoom button{
+  width: 100%;
+  margin: 0;
+  left: 0;
+  top: 0;
+  height: 100%;
+  opacity: 0;
+  color:red;
+
+
 .probootstrap-header {
   background: #6078EA;
   padding-top: 30px;
