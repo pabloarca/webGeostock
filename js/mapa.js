@@ -48,4 +48,8 @@
     }, 3000);
   });
 
+<<<<<<< HEAD
 })(window, document);
+=======
+})(window, document);
+>>>>>>> 6b365a9aef7ea6b2a7c97d04a2fc7d3872ee9386
